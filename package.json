@@ -1,0 +1,19 @@
+{
+  "name": "kelp-theme-sdf",
+  "version": "0.0.0",
+  "description": "Stellar Development Foundation's kelp framework theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stellar/kelp-theme-sdf.git"
+  },
+  "author": "Iris Li <iris@stellar.org> (https://www.stellar.org/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/stellar/kelp-theme-sdf/issues"
+  },
+  "homepage": "https://github.com/stellar/kelp-theme-sdf"
+}
