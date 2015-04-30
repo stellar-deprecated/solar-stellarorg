@@ -2,7 +2,7 @@
   "name": "kelp-theme-sdf",
   "version": "0.0.0",
   "description": "Stellar Development Foundation's kelp framework theme",
-  "main": "index.js",
+  "main": "index.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
