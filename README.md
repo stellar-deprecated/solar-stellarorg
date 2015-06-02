@@ -1,4 +1,4 @@
-kelp-theme-sdf
+solar-sdf
 --------------
 
-This is a theme for the [kelp](https://github.com/stellar/kelp) framework.
+solar-sdf is a [solar css framework](https://github.com/stellar/solar) theme. It themes solar to Stellar Development Foundation's branding.

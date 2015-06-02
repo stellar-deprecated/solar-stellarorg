@@ -1,19 +1,19 @@
 {
-  "name": "kelp-theme-sdf",
+  "name": "solar-sdf",
   "version": "0.0.0",
-  "description": "Stellar Development Foundation's kelp framework theme",
+  "description": "Stellar Development Foundation's solar framework theme",
   "main": "index.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stellar/kelp-theme-sdf.git"
+    "url": "https://github.com/stellar/solar-sdf.git"
   },
   "author": "Iris Li <iris@stellar.org> (https://www.stellar.org/)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/stellar/kelp-theme-sdf/issues"
+    "url": "https://github.com/stellar/solar-sdf/issues"
   },
-  "homepage": "https://github.com/stellar/kelp-theme-sdf"
+  "homepage": "https://github.com/stellar/solar-sdf"
 }
