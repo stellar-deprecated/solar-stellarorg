@@ -14,15 +14,22 @@
 .so-siteHeader {
   @include S-flex-row();
   align-items: flex-end;
-  justify-content: flex-end;
-
   height: 72px;
   padding: 18px 0;
-  background: $s-color-neutral5;
 }
 .so-siteHeader .s-inlineList {
   align-self: center;
 }
 .so-siteHeader .s-navList {
   align-self: center;
+}
+
+.so-siteHeader__navList {
+  color: $s-color-primary3;
+}
+.so-siteHeader__navList__item {
+  text-decoration: none;
+}
+.so-siteHeader__navList__item:hover {
+  text-decoration: underline;
 }
