@@ -1,0 +1,25 @@
+// ss-siteHeader is the module for creating headers in Stellar
+
+// It follows specific dimensions
+// 72px from top to bottom outer height (not including border)
+// 18px of padding on the top; 18px on the bottom; leaving 36px in the middle
+
+// The baselines of the items should be aligned to the baseline of the .ss-logo
+// baseline (when aligned using flex-end). If using flex aligns don't work, you
+// can fine tune the verticalness using paddings inside the content (not the
+// parent siteHeader).
+
+// Max font size is $s-scale-1 (28px)
+
+.ss-siteHeader {
+  @include S-flex-row();
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  height: 72px;
+  padding: 18px 0;
+  background: $s-color-neutral5;
+}
+.ss-siteHeader .s-plainInlineList {
+  align-self: center;
+}
