@@ -1,16 +1,16 @@
 // to use .ss-logo on a dark background, set the font color of the parent .ss-logo
 // and the color setting will cascade to the separator and subSite.
 
-.ss-logo, a.ss-logo {
+.so-logo, a.so-logo {
   text-decoration: none;
-  // font size is set in .ss-logo so that the separator inherits it
+  // font size is set in .so-logo so that the separator inherits it
   font-size: $s-scale-1;
 }
-  .ss-logo__main, a.ss-logo__main {
+  .so-logo__main, a.so-logo__main {
     color: $s-color-primary3;
     text-transform: lowercase;
   }
-  .ss-logo__separator {
+  .so-logo__separator {
     display: inline;
 
     border-left: 1px solid currentColor;
@@ -20,6 +20,6 @@
     // hide the space (for a space in the text representation)
     letter-spacing: -1em;
   }
-  .ss-logo__subSite {
+  .so-logo__subSite {
     font-size: $s-scale-4;
   }
