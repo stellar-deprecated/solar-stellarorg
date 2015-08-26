@@ -2,23 +2,22 @@
 // and the color setting will cascade to the separator and subSite.
 
 .so-logo, a.so-logo {
+  @include S-flex-row();
+  align-items: baseline;
   text-decoration: none;
-  // font size is set in .so-logo so that the separator inherits it
+  // font size is set in .so-logo so that both the separator and subSite inherits it
   font-size: $s-scale-1;
+  color: $s-color-neutral2;
 }
   .so-logo__main, a.so-logo__main {
     color: $s-color-primary3;
     text-transform: lowercase;
   }
   .so-logo__separator {
-    display: inline;
-
+    align-self: stretch;
     border-left: 1px solid currentColor;
     margin-left: 0.5em;
     margin-right: 0.5em;
-
-    // hide the space (for a space in the text representation)
-    letter-spacing: -1em;
   }
   .so-logo__subSite {
     font-size: $s-scale-4;
