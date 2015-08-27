@@ -11,6 +11,10 @@
 }
   .so-logo__main, a.so-logo__main {
     color: $s-color-primary3;
+    font-weight: 700; // TODO: update to variable
+    // TODO: improve how we do font smoothing (mixin, consistency)
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     text-transform: lowercase;
   }
   .so-logo__separator {
