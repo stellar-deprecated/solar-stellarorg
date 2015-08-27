@@ -14,10 +14,13 @@
     text-transform: lowercase;
   }
   .so-logo__separator {
-    align-self: stretch;
+    align-self: center;
+    // currently fine tuned to $s-scale-1 but may need to be adjusted when
+    // the parent font size changes
+    height: 0.8em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
     border-left: 1px solid currentColor;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
   }
   .so-logo__subSite {
     font-size: $s-scale-4;
