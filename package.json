@@ -1,6 +1,6 @@
 {
   "name": "solar-stellarorg",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Stellar Development Foundation's solar framework theme",
   "main": "index.json",
   "scripts": {
