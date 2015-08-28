@@ -16,11 +16,11 @@ s-read-md table {
 }
 s-read-md table td, s-read-md table th {
   padding: 0.5em;
-  border: 1px solid $s-color-neutral5;
+  border: 1px solid $s-color-light3;
 }
 s-read-md code {
   border-radius: 2px;
-  background: $s-color-neutral6;
+  background: $s-color-light4;
 }
 s-read-md pre > code { // undo the above
   background: inherit;
