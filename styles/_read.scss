@@ -16,11 +16,11 @@ s-read-md table {
 }
 s-read-md table td, s-read-md table th {
   padding: 0.5em;
-  border: 1px solid $s-color-light3;
+  border: 1px solid $s-color-light2;
 }
 s-read-md code {
   border-radius: 2px;
-  background: $s-color-light4;
+  background: $s-color-light3;
 }
 s-read-md pre > code { // undo the above
   background: inherit;
@@ -34,8 +34,11 @@ s-read-md h6 {
   margin-top: 1em;
   margin-bottom: 0.25em;
 }
+s-read-md table {
+  margin-bottom: 1em;
+}
 
 s-read-md ul {
-  list-style-position: inside;
-  margin-left: 0.5em;
+  list-style-position: outside;
+  padding-left: 2em;
 }
