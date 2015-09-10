@@ -1,0 +1,21 @@
+// Graphics in css should be for just decorational items
+
+@mixin so-graphic($name, $nativeWidth, $nativeHeight) {
+  width: $nativeWidth/2 + px;
+  height: $nativeHeight/2 + px;
+  background-size: $nativeWidth/2 + px $nativeHeight/2 + px;
+  background-image: url($so-graphicsPath + $name);
+}
+
+.so-graphic {
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.so-graphic-codeWithOrbits { @include so-graphic("codeWithOrbits.png", 284, 284); @extend .so-graphic; }
+.so-graphic-nodeConnectedEarth { @include so-graphic("nodeConnectedEarth.png", 262, 264); @extend .so-graphic; }
+.so-graphic-pencilOnEarth { @include so-graphic("pencilOnEarth.png", 288, 250); @extend .so-graphic; }
+.so-graphic-s-bigCogLittleCog { @include so-graphic("s-bigCogLittleCog.png", 124, 124); @extend .so-graphic; }
+.so-graphic-s-fileFolder { @include so-graphic("s-fileFolder.png", 132, 120); @extend .so-graphic; }
+.so-graphic-s-rectangularTree { @include so-graphic("s-rectangularTree.png", 126, 120); @extend .so-graphic; }
+.so-graphic-s-stellarRocket { @include so-graphic("s-stellarRocket.png", 96, 120); @extend .so-graphic; }
