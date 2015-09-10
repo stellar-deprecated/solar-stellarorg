@@ -12,6 +12,7 @@
   background-repeat: no-repeat;
 }
 
+// the following is generated using tools/graphicGenerator.js
 .so-graphic-codeWithOrbits { @include so-graphic("codeWithOrbits.png", 284, 284); @extend .so-graphic; }
 .so-graphic-nodeConnectedEarth { @include so-graphic("nodeConnectedEarth.png", 262, 264); @extend .so-graphic; }
 .so-graphic-pencilOnEarth { @include so-graphic("pencilOnEarth.png", 288, 250); @extend .so-graphic; }

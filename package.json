@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/stellar/solar-stellarorg/issues"
   },
-  "homepage": "https://github.com/stellar/solar-stellarorg"
+  "homepage": "https://github.com/stellar/solar-stellarorg",
+  "devDependencies": {
+    "glob": "^5.0.14",
+    "image-size": "^0.3.5"
+  }
 }
