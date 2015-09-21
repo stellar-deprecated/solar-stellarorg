@@ -1,0 +1,16 @@
+input {
+  border: 1px solid $s-color-light2;
+  color: $s-color-dark2;
+  padding: 0.5em 1em;
+  border-radius: $s-var-radius;
+}
+
+.s-button:hover {
+  background: $s-color-primary2;
+}
+.s-button.is-disabled {
+  border: 1px solid $s-color-dark4;
+  border-bottom: 1px solid $s-color-dark3;
+  background: $s-color-light2;
+  color: $s-color-dark4;
+}
