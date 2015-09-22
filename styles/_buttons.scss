@@ -1,9 +1,26 @@
 .s-button {
   padding: 0.5em 1em;
-  border: 1px solid $s-color-primary2;
-  border-bottom: 1px solid $s-color-primary1;
+  border: 1px solid $s-color-primary3;
+  border-bottom: 1px solid $s-color-primary2;
 
-  background: $s-color-primary3;
+  background: $s-color-primary4;
   color: $s-color-light4;
   text-decoration: none;
+}
+
+.s-button:hover {
+  border: 1px solid $s-color-primary2;
+  border-bottom: 1px solid $s-color-primary1;
+  background: $s-color-primary3;
+}
+.s-button:active {
+  border: 1px solid $s-color-primary2;
+  border-bottom: 1px solid $s-color-primary2;
+  background: $s-color-primary2;
+}
+.s-button.is-disabled {
+  border: 1px solid $s-color-dark4;
+  border-bottom: 1px solid $s-color-dark3;
+  background: $s-color-light2;
+  color: $s-color-dark4;
 }
