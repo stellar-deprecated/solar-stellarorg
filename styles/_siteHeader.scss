@@ -33,3 +33,6 @@
 .so-siteHeader__navList__item:hover {
   text-decoration: underline;
 }
+.so-siteHeader__navList__item.is-currentItem {
+  color: $s-color-dark2;
+}
