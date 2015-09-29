@@ -9,6 +9,10 @@
 
 s-read-md {}
 
+s-read-md :first-child {
+  margin-top: 0;
+}
+
 s-read-md table {
   display: block;
   overflow: auto;
