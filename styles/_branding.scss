@@ -19,6 +19,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-transform: lowercase;
+    text-decoration: none;
+  }
+  .so-logo__main:hover, a.so-logo__main:hover {
+    text-decoration: underline;
   }
   .so-logo__separator {
     align-self: center;
@@ -31,4 +35,8 @@
   }
   .so-logo__subSite {
     font-size: $s-scale-4;
+    text-decoration: none;
+  }
+  .so-logo__subSite:hover {
+    text-decoration: underline;
   }
