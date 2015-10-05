@@ -21,12 +21,6 @@
   align-items: flex-end;
   padding: 18px 0;
 }
-.so-siteHeader .s-inlineList {
-  align-self: center;
-}
-.so-siteHeader .s-navList {
-  align-self: center;
-}
 .so-siteHeader__simpleAlign {
   margin-bottom: 3px;
 }
@@ -42,4 +36,8 @@
 }
 .so-siteHeader__navList__item.is-currentItem {
   color: $s-color-dark2;
+}
+
+.so-siteHeader__emptyLogo {
+  height: 42px;
 }
