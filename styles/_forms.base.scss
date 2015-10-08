@@ -1,6 +1,11 @@
 input {
-  border: 1px solid $s-color-light2;
+  border: 1px solid $s-color-light1;
   color: $s-color-dark2;
   padding: 0.5em 1em;
   border-radius: $s-var-radius;
+}
+
+.s-inputGroup__item--tag,
+.s-inputGroup__item--tagFlat,
+.s-inputGroup__item--tagMin {
 }
