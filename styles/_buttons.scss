@@ -13,7 +13,7 @@
   border-bottom: 1px solid $s-color-primary1;
   background: $s-color-primary3;
 }
-.s-button:active {
+.s-button:active, :checked + .s-button {
   border: 1px solid $s-color-primary2;
   border-bottom: 1px solid $s-color-primary2;
   background: $s-color-primary2;
