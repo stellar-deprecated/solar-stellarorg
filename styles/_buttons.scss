@@ -31,6 +31,7 @@
   border: 1px solid $s-color-neutral4;
   background: $s-color-neutral7;
   color: $s-color-neutral4;
+  box-shadow: none;
 }
 .s-button.is-disabled:hover,
 .s-button:disabled:hover {
@@ -51,8 +52,6 @@
   background: transparent;
   box-shadow: none;
   color: inherit;
-}
-.s-button.is-disabled { // yet to be implemented because use case not encountered yet
 }
 
 .s-button__light {
