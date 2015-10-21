@@ -1,4 +1,6 @@
 .s-button {
+  z-index: 1;
+
   padding: 0.5em 1em;
   border: 1px solid $s-color-primary3;
   border-bottom: 1px solid $s-color-primary2;
@@ -9,18 +11,71 @@
 }
 
 .s-button:hover {
+  z-index: 3;
   border: 1px solid $s-color-primary2;
   border-bottom: 1px solid $s-color-primary1;
   background: $s-color-primary3;
 }
-.s-button:active, :checked + .s-button {
+.s-button:active,
+.s-button.is-active,
+:checked + .s-button {
+  z-index: 2;
   border: 1px solid $s-color-primary2;
   border-bottom: 1px solid $s-color-primary2;
   background: $s-color-primary2;
 }
-.s-button.is-disabled {
+.s-button.is-disabled,
+.s-button:disabled {
   border: 1px solid $s-color-neutral4;
   border-bottom: 1px solid $s-color-neutral3;
   background: $s-color-neutral7;
   color: $s-color-neutral4;
+}
+.s-button.is-disabled:hover,
+.s-button:disabled:hover {
+  z-index: 1; // reset z-index so that it doesn't show above hover
+}
+
+.s-button__min {
+  border: 1px solid transparent;
+  background: transparent;
+  color: inherit;
+}
+.s-button__min:active,
+.s-button__min.is-active,
+:checked + .s-button__min,
+.s-button.s-button__min:hover // extra .s-button for specificity since :checked + has high specificity
+{
+  border: 1px solid currentColor;
+  background: transparent;
+}
+.s-button.is-disabled { // yet to be implemented because use case not encountered yet
+}
+
+.s-button__light {
+  border: 1px solid $s-color-neutral6;
+  background: $s-color-neutral8;
+  color: $s-color-neutral2;
+}
+.s-button__light:active,
+.s-button__light.is-active,
+:checked + .s-button__light {
+  border: 1px solid $s-color-primary2;
+  background: $s-color-primary4;
+  color: $s-color-neutral9;
+}
+.s-button__light:hover { // extra .s-button for specificity
+  border: 1px solid $s-color-primary2;
+  background: $s-color-primary3;
+  color: $s-color-neutral9;
+}
+.s-button__light.is-disabled,
+.s-button__light:disabled,
+.s-button__light.is-disabled:hover,
+.s-button__light:disabled:hover {
+  border: 1px solid $s-color-neutral6;
+  background: $s-color-neutral8;
+  color: $s-color-neutral6;
+}
+.s-button.is-disabled { // yet to be implemented because use case not encountered yet
 }
