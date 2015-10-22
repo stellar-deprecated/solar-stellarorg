@@ -26,6 +26,11 @@
   color: $s-color-neutral9;
 }
 
+:checked:focus + .s-button {
+  // TODO: figure out focus outline
+  outline: auto 5px -webkit-focus-ring-color;
+}
+
 .s-button.is-disabled,
 .s-button:disabled {
   border: 1px solid $s-color-neutral4;
