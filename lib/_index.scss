@@ -1,3 +1,7 @@
 
 // can be overwritten somewhere else in the solar consumer
 $so-graphicsPath: './graphics/';
+
+
+// For buttons, inputs, and other button-like things that want to be consistent
+$so-inputPadding: 0.35em 1em 0.3166em 1em;

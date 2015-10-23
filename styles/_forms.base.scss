@@ -1,7 +1,7 @@
 input {
   border: 1px solid $s-color-neutral6;
   color: $s-color-neutral2;
-  padding: 0.3666em 1em 0.3333em 1em;
+  padding: $so-inputPadding;
   border-radius: $s-var-radius;
 }
 
