@@ -70,15 +70,24 @@
   background: $s-color-primary4;
   color: $s-color-neutral9;
 }
-.s-button__light:hover { // extra .s-button for specificity
-  border: 1px solid $s-color-primary2;
-  background: $s-color-primary3;
-  color: $s-color-neutral9;
+.s-button__light:hover {
+  border: 1px solid $s-color-neutral6;
+  background: $s-color-neutral8;
+  color: $s-color-neutral2;
+  box-shadow: inset 0 -1px 0 $s-color-neutral6;
 }
 .s-button__light:active {
   border: 1px solid $s-color-primary2;
   background: $s-color-primary2;
   color: $s-color-neutral9;
+}
+.s-button__light:active:hover,
+.s-button__light.is-active:hover,
+:checked + .s-button__light:hover {
+  border: 1px solid $s-color-primary2;
+  background: $s-color-primary3;
+  color: $s-color-neutral9;
+  box-shadow: inset 0 -1px 0 $s-color-primary2;
 }
 .s-button__light.is-disabled,
 .s-button__light:disabled,
