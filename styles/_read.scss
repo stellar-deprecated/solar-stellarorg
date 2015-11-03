@@ -22,9 +22,8 @@ s-read-md table td, s-read-md table th {
   padding: 0.5em;
   border: 1px solid $s-color-neutral7;
 }
-s-read-md code {
-  border-radius: 2px;
-  background: $s-color-neutral8;
+s-read-md pre {
+  @include so-code;
 }
 s-read-md pre > code { // undo the above
   background: inherit;
