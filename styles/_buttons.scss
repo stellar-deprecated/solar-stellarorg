@@ -12,7 +12,7 @@
 }
 
 .s-button:hover {
-  z-index: 3;
+  z-index: 2;
   border: 1px solid $s-color-primary2;
   background: $s-color-primary3;
   color: $s-color-neutral9;
@@ -20,7 +20,7 @@
 .s-button:active,
 .s-button.is-active,
 :checked + .s-button {
-  z-index: 2;
+  z-index: 3;
   border: 1px solid $s-color-primary1;
   background: $s-color-primary2;
   box-shadow: none;
