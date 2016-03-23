@@ -2,6 +2,8 @@ var glob = require('glob');
 var sizeOf = require('image-size');
 var path = require('path');
 
+// PREREQUISITE: Install the npm package image-size and glob before running this
+
 // currently only support for .png. .svg will be added when used
 glob(__dirname + '/../graphics/**/*.png', function(er, files) {
   files.forEach(function(filepath) {
