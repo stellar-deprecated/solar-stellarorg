@@ -30,6 +30,9 @@ input, textarea, select, .so-dropdown__select {
 
     background: transparent;
   }
+  .so-dropdown__select--placeholder {
+    color: $s-color-neutral5;
+  }
   .so-dropdown__select:hover {
     cursor: pointer;
   }
