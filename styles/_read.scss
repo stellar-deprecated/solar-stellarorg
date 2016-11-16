@@ -59,7 +59,6 @@ s-read-md ul, s-read-md ol {
 }
 
 s-read-md img {
-  // Was making images look ugly at the developer portal
-  // width: 100%;
+  max-width: calc(900px - 6em);
   height: auto;
 }
